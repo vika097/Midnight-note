@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midnight note</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="quoteOverlay" class="quote-overlay">
+    <p id="quoteText"></p>
+</div>
+
+    <section class="screen hero">
+        <div class="hero-content">
+            <h1>Midnight note</h1>
+            <p>Мінімалістичний веб-простір для фіксації думок, ідей та рефлексій, що виникають перед сном</p>
+        </div>
+    </section>
+
+    <section class="screen editor">
+        <div class="input-container">
+            <span id="clearInputBtn" class="clear-icon">✕</span>
+            <textarea id="noteInput" placeholder="Текст..."></textarea>
+            <div class="button-wrapper">
+                <button id="releaseBtn">Відпустити</button>
+            </div>
+        </div>
+        
+        <div class="archive-container">
+            <ul id="archiveList"></ul>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Nunito:wght@400;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+</body>
+</html>
